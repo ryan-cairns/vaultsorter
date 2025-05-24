@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+lib/
+include/
+bin/
+share/
+*.egg-info/
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.mypy_cache/
+.vscode/
+.env
+
+# Django
+*.log
+*.pot
+*.mo
+*.js.map
+*.css.map
+db.sqlite3 # SQLite database file (if used for development)
+media/ # User-uploaded media files
+static_cdn/ # Collected static files for production (if using collectstatic)
+
+# Environment variables
+.env # Crucial: Keeps your sensitive API keys and secrets out of version control
+.env.* # Catches variations like .env.local, .env.dev, etc.
+
+# Operating System Files
+.DS_Store
+.Trash
+Thumbs.db
+
+# IDEs and Editors
+.idea/ # IntelliJ IDEA / PyCharm
+*.sublime-project
+*.sublime-workspace
+.history/ # VS Code Local History
+.csspell
