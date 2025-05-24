@@ -17,7 +17,6 @@ htmlcov/
 .tox/
 .mypy_cache/
 .vscode/
-.env
 
 # Django
 *.log
@@ -25,13 +24,12 @@ htmlcov/
 *.mo
 *.js.map
 *.css.map
-db.sqlite3 # SQLite database file (if used for development)
+db.sqlite3 # SQLite database file
 media/ # User-uploaded media files
-static_cdn/ # Collected static files for production (if using collectstatic)
-
+static_cdn/ # Collected static files for production
 # Environment variables
-.env # Crucial: Keeps your sensitive API keys and secrets out of version control
-.env.* # Catches variations like .env.local, .env.dev, etc.
+.env
+.env.*
 
 # Operating System Files
 .DS_Store
